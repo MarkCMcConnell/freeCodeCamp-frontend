@@ -1,0 +1,47 @@
+
+<DOCTYPE>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="wrapper">
+        <div class="player-number">
+          <p>How many players?</p>
+          <button class="one">One Player</button>
+          <button class="two">Two Players      </button>
+        </div>
+        <div class="choice">
+          <p>Please choose your symbol</p>
+          <button id="x">X</button>
+          <button id="o">O  </button>
+        </div>
+        <div id="win"></div>
+        <div id="draw"></div>
+        <table>
+          <tr>
+            <td class="square empty" id="0"></td>
+            <td class="vertical square empty" id="1"></td>
+            <td class="square empty" id="2"></td>
+          </tr>
+          <tr>
+            <td class="horizontal square empty" id="3"></td>
+            <td class="vertical horizontal square empty" id="4"></td>
+            <td class="horizontal square empty" id="5"></td>
+          </tr>
+          <tr>
+            <td class="square empty" id="6"></td>
+            <td class="vertical square empty" id="7"></td>
+            <td class="square empty" id="8"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</DOCTYPE>

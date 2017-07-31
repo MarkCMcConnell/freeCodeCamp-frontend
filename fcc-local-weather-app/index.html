@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Local Weather</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/font/weathericons-regular-webfont.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css">
+</head>
+
+<body>
+  <div id="background">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-right">
+          <ul class="list-unstyled">
+            <li id="location"></li>
+            <li id="time"></li>
+            <li id="date"></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-4 text-left">
+            <ul class="list-unstyled">
+              <li id="weather-icon"></li>
+              <li id="weather"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 text-right">
+              <ul class="list-unstyled">
+                <li id="temp"></li>
+                <li id="wind"></li>
+                <li id="humidity"></li>
+                <li id="rain-percent"></li>
+                <li id="barometer"></li>
+              </ul>
+            </div>
+          </div>
+          <div id="convert" class="row text-right">
+            <button class="btn btn-primary fahrenheit">
+              <i class="wi wi-fahrenheit"></i>
+            </button>
+            <button class="btn btn-primary celsius">
+              <i class="wi wi-celsius"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

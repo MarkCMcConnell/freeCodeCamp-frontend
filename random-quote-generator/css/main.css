@@ -1,0 +1,59 @@
+/*page styling*/
+html body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  width: 600px;
+}
+
+/*quotes*/
+h3 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.quote {
+  background: #1a2930;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  color: #fff;
+  height: 250px;
+  margin-bottom: 0;
+  margin-top: 15%;
+}
+
+#message {
+  border-left: 3px solid #f7ce3e;
+  padding-left: 10px;
+}
+
+#author {
+  margin: 0;
+  text-align:right;
+}
+
+/*button and twitter*/
+.container .foot {
+  margin-top: 10px;
+}
+
+.btn {
+  background: #333a56;
+  border: none;
+  color: #c5c1c0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #fff;
+  margin-top: 10px;
+}
+
+.btn:hover, .btn:focus {
+  background: #f7ce3e;
+  color: #0a1612;
+  outline: none !important;
+}
+
+.btn-twitter .fa-twitter-square {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-size: 32px;
+}

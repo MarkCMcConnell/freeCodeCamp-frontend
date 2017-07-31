@@ -1,0 +1,58 @@
+
+<DOCTYPE>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Pomodoro CLock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-2 h1-wrapper">
+          <h1 class="title">Pomodoro</h1>
+        </div>
+        <div class="col-xs-8 timer-wrapper">
+          <div class="row">
+            <div class="col-xs-12 progress-circle">
+              <div class="row interval-set">
+                <div class="col-xs-12">
+                  <h3 class="interval">Session</h3>
+                </div>
+              </div>
+              <div class="row time-left">
+                <div class="col-xs-12">
+                  <h1 class="timer">25:00</h1>
+                </div>
+              </div>
+              <div class="row controls">
+                <div class="col-xs-4"><i class="fa fa-play-circle play" aria-hidden="true"></i></div>
+                <div class="col-xs-4"><i class="fa fa-pause-circle pause" aria-hidden="true"></i></div>
+                <div class="col-xs-4"><i class="fa fa-stop-circle stop" aria-hidden="true"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2 settings-wrapper">
+          <div class="row session-wrapper">
+            <div class="col-xs-1 session">Session</div>
+            <div class="col-xs-6 settings"><i class="fa fa-plus-circle increase-session" aria-hidden="true"></i>
+              <div class="session-time">25</div><i class="fa fa-minus-circle decrease-session" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="row break-wrapper">
+            <div class="col-xs-4 break">Break</div>
+            <div class="col-xs-6 settings"><i class="fa fa-plus-circle increase-break" aria-hidden="true"></i>
+              <div class="break-time">5</div><i class="fa fa-minus-circle decrease-break" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="scripts/main.js"></script>
+    </div>
+  </body>
+</DOCTYPE>

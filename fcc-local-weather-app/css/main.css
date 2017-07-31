@@ -1,0 +1,57 @@
+body {
+  font-size: 18px;
+}
+
+#background::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://source.unsplash.com/NROJUYgpjKE/1920x1080");
+  background-size: cover;
+
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.container {
+  background: url("https://source.unsplash.com/NROJUYgpjKE/987x617");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: #FFFFFF;
+  height: 610px;
+  max-width: 980px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+
+.row .list-unstyled {
+  height: 140px;
+  margin-right: 50px;
+}
+
+#location {
+  margin-top: 40px;
+}
+
+#weather-icon {
+  font-size: 100px;
+}
+
+#convert .btn-primary {
+  background: #5691BF;
+  font-size: 0.9em;
+  outline: none;
+}
+
+.celsius {
+  margin-right: 60px;
+}

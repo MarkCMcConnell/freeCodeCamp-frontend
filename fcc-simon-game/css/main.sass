@@ -1,0 +1,142 @@
+.container
+  margin: 5% auto
+  background: #000
+  position: relative
+  height: 500px
+  width: 500px
+  border-radius: 50%
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  z-index: 1
+
+.green
+  position: absolute
+  top: 17px
+  left: 17px
+  height: 225px
+  width: 225px
+  border-radius: 100% 0 0 0
+  z-index: 5
+
+.red
+  position: absolute
+  top: 17px
+  right: 17px
+  height: 225px
+  width: 225px
+  border-radius: 0 100% 0 0
+  z-index: 5
+
+.yellow
+  position: absolute
+  bottom: 17px
+  left: 17px
+  height: 225px
+  width: 225px
+  border-radius: 0 0 0 100%
+  z-index: 5
+
+.blue
+  position: absolute
+  bottom: 17px
+  right: 17px
+  height: 225px
+  width: 225px
+  border-radius: 0 0 100% 0
+  z-index: 5
+
+.controls
+  background: #e8e8e8
+  box-sizing: border-box
+  border: 15px solid #000
+  border-radius: 100%
+  height: 300px
+  width: 300px
+  position: absolute
+  top: 20%
+  left: 20%
+  z-index: 10
+
+h1
+  margin: 15% 25% 0 21%
+  font-size: 60px
+  font-weight: bold
+ul
+  list-style: none
+  margin: 0 0
+
+li
+  font-size: 14px
+  display: inline-block
+  margin-top: 10px
+  text-align: center
+
+.control
+  height: 30px
+  width: 30px
+  border-radius: 100%
+  border: 2px solid #3f4041
+
+#count
+  height: 30px
+  width: 60px
+  margin: 5px 10px 0 10px
+  color: #f60909
+  text-align: center
+  font-size: 28px
+  background: #330f0f
+  border: 4px solid #2e2e2f
+  border-radius: 10px
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.7)
+
+.start
+  background: #f00832
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.7)
+
+  &:focus, &:active
+    outline: none
+
+.strict
+  background: #f3f70b
+  margin-left: 10px
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.7)
+
+  &:focus, &:active
+    outline: none
+
+#reset
+  margin-left: 28%
+  margin-top: 10px
+  width: 60px
+  height: 30px
+  background-color: #b5b3b1
+  color: black
+  border-radius: 20px
+  border: 2px solid #2e2e2f
+  box-shadow: 0 2px 0 2px rgba(0, 0, 0, 0.7)
+
+  &:focus, &:active
+    outline: none
+
+.highlight-green
+  background: #41f664
+
+.normal-green
+  background: #34ba1c
+
+.highlight-red
+  background: #f73c36
+
+.normal-red
+  background: #cb1818
+
+.highlight-yellow
+  background: #fbf21f
+
+.normal-yellow
+  background: #c6c412
+
+.highlight-blue
+  background: #5158f9
+
+.normal-blue
+  background: #2738d0

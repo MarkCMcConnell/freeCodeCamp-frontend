@@ -1,0 +1,55 @@
+body {
+  background: #eee;
+}
+
+.container {
+  height: 400px;
+  width: 325px;
+  margin-top: 10%;
+  overflow: hidden;
+}
+
+.top{
+  font-size: 20px;
+  height: 30px;
+}
+
+.view {
+  font-size: 48px;
+  height: 90px;
+}
+
+.display {
+  margin-right: 10px;
+}
+
+.container .row {
+  margin: 0 0;
+}
+
+.row .col {
+  box-sizing: border-box;
+  font-size: 0;
+  height: 280px;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.numbers {
+  height: 70px;
+  width: 33%;
+}
+
+.operators .btn {
+  height: 56px;
+  width: 100%;
+}

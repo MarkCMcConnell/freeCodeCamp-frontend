@@ -1,0 +1,30 @@
+DOCTYPE
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", type="text/css", href="css/main.css")
+    title Simon Game
+
+  body
+    .container
+      .green.normal-green
+      .red.normal-red
+      .yellow.normal-yellow
+      .blue.normal-blue
+      .controls
+        h1 Simon
+        ul
+          li
+            p#count --
+            p COUNT
+          li
+            button.control.start
+            p START
+          li
+            button.control.strict
+            p STRICT
+
+          button#reset Reset
+
+    script(src="scripts/jquery-3.2.1.min.js")
+    script(src="scripts/main.js")

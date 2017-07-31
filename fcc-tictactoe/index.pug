@@ -1,0 +1,42 @@
+DOCTYPE
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", type="text/css", href="css/main.css")
+    title Tic-Tac-Toe
+
+  body
+    .container
+      h1 Tic-Tac-Toe
+  
+      .wrapper
+        .player-number
+          p How many players?
+          button.one One Player
+          button.two Two Players      
+        
+        .choice
+          p Please choose your symbol
+          button#x X
+          button#o O  
+          
+        #win
+          
+        #draw
+          
+        table
+          tr
+            td.square.empty#0
+            td.vertical.square.empty#1
+            td.square.empty#2
+          tr
+            td.horizontal.square.empty#3
+            td.vertical.horizontal.square.empty#4
+            td.horizontal.square.empty#5
+          tr
+            td.square.empty#6
+            td.vertical.square.empty#7
+            td.square.empty#8
+        
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+    script(src="scripts/main.js")
